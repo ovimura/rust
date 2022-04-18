@@ -1,4 +1,5 @@
 fn main() {
-    let x = 10;
+    let mut x: u8 = 255;
+    x = x + 1;
     println!("x is {}", x);
 }
