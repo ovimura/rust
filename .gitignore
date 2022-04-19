@@ -12,3 +12,5 @@ Cargo.lock
 .git/
 
 **/.git/
+
+target/
