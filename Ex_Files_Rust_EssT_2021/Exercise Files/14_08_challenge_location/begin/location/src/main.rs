@@ -1,4 +1,18 @@
-/* YOUR CODE GOES HERE */
+enum Location {
+    Unknown,
+    Anonymous,
+    Known(f64, f64),
+}
+
+impl Location {
+    fn display(&self) {
+        match *self {
+            Location::Unknown => println!("Unknown"),
+            Location::Anonymous => println!("Anonymous"),
+            Location::Known(a, b) => println!("({}, {})", a, b),
+        }
+    }
+}
 
 fn main() {
     let address = Location::Unknown;
