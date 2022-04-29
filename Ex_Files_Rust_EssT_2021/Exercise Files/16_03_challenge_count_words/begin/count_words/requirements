@@ -1,0 +1,25 @@
+
+1. Read in a text file.
+2. Count the number of time each word occurs.
+3. Print a message with the most common words and how many times they appeared.
+
+
+- accpet the path to a text file via command-line argument
+
+Example: > count_words.exe earth_to_the_moon.txt
+
+Implement error handling as needed.
+
+--------------
+
+- parse text into individual words, hing: use split_whitespace()
+
+- ignore capitalization
+
+- keep track of how many times each unique word occurs
+
+- print most common words and how many times they occurred
+
+- keep in mind, there could be multiple "most common" words
+
+
